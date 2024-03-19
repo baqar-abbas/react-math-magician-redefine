@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { lineheight, heading } from './Home';
 
 export default function Quotes() {
   const apiUrl = 'https://api.api-ninjas.com/v1/quotes';
@@ -29,9 +30,10 @@ export default function Quotes() {
 
   return (
     <div className="quotes">
-      <span>{isLoading ? 'Loading ...' : ''}</span>
+      <span className="positioning">{isLoading ? 'Loading ...' : ''}</span>
       <span>{error || ''}</span>
-      {quote}
+      <h2 style={heading} className="positioning">Quote of the Day</h2>
+      <p style={lineheight} className="positioning">{quote}</p>
     </div>
   );
 }
