@@ -2,6 +2,7 @@
 
 | Math Magician                  |
 | ------------------------------ |
+| ![image](/images/math.JPG)     |
 | ![image](/images/magician.JPG) |
 
 <div align="center">
@@ -67,7 +68,7 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-- [Live Demo](will be updated soon)
+- [Live Demo](https://react-math-magician-redefine.onrender.com/)
 
 <!-- GETTING STARTED -->
 
