@@ -1,102 +1,97 @@
 @media screen and (max-width: 900px) {
-    .calcDiv {
-        left: 30%;
-        top: 20%;
-    }
+  .calcDiv {
+    left: 30%;
+    top: 20%;
+  }
 
-    .calculator-heading {
-        top: 8%;
-        left: 15%;
-    }
+  .calculator-heading {
+    top: 8%;
+    left: 15%;
+  }
 }
 
 @media screen and (max-width: 750px) {
-    .calcDiv {
-        left: 20%;
-        top: 20%;
-    }
+  .calcDiv {
+    left: 20%;
+    top: 20%;
+  }
 
-    .calculator-heading {
-        top: 8%;
-        left: 20%;
-    }
+  .calculator-heading {
+    top: 8%;
+    left: 20%;
+  }
 }
 
 @media screen and (max-width: 620px) {
-    .calcDiv {
-        left: 10%;
-        top: 20%;
-        
-    }
+  .calcDiv {
+    left: 10%;
+    top: 20%;
+  }
 
-    .calculator-heading {
-        top: 8%;
-        left: 22%;
-    }
+  .calculator-heading {
+    top: 8%;
+    left: 22%;
+  }
 }
 
 @media screen and (max-width: 560px) {
-    .calcDiv {
-        left: 7%;
-        top: 20%;
-    }
+  .calcDiv {
+    left: 7%;
+    top: 20%;
+  }
 
-    .calculator-heading {
-        top: 8%;
-        left: 24%;
-    }
+  .calculator-heading {
+    top: 8%;
+    left: 24%;
+  }
 }
 
 @media screen and (max-width: 530px) {
+  .calculator-heading {
+    top: 8%;
+    left: 24%;
+  }
 
-    .calculator-heading {
-        top: 8%;
-        left: 24%;
-    }
+  .calcDiv {
+    width: 25rem;
+    left: 7%;
+    top: 19%;
+  }
 
-    .calcDiv {
-        width: 25rem;
-        left: 7%;
-        top: 19%;
-    }
+  .calcScreen {
+    width: 25rem;
+  }
 
-    .calcScreen {
-        width: 25rem;
-    }
+  .flex-container {
+    width: 25rem;
+  }
 
-    .flex-container {
-        width: 25rem;
-    }
-
-    .flex-container > button {
-        width: 100px;
-        line-height: 60px;
-    }
-    
+  .flex-container > button {
+    width: 100px;
+    line-height: 60px;
+  }
 }
 
 @media screen and (max-width: 440px) {
+  .calculator-heading {
+    top: 8%;
+    left: 15%;
+  }
 
-    .calculator-heading {
-        top: 8%;
-        left: 15%;
-    }
+  .calcDiv {
+    width: 20rem;
+  }
 
-    .calcDiv {
-        width: 20rem;
-    }
+  .calcScreen {
+    width: 20rem;
+  }
 
-    .calcScreen {
-        width: 20rem;
-    }
+  .flex-container {
+    width: 20rem;
+  }
 
-    .flex-container {
-        width: 20rem;
-    }
-
-    .flex-container > button {
-        width: 80px;
-        line-height: 60px;
-    }
-
+  .flex-container > button {
+    width: 80px;
+    line-height: 60px;
+  }
 }
