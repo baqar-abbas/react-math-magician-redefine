@@ -5,9 +5,10 @@
 .App {
   background-image: url("./assets/math.webp");
   width: 100vw; /* viewport width */
-  height: 100vh; /* viewport height */
-  background-size: cover;
+  min-height: 100vh; /* viewport height */
+  background-size: 100% 100%;
   background-repeat: no-repeat;
+  padding-bottom: 20px;
 }
 
 .calcDiv {
@@ -59,7 +60,7 @@
   width: 30rem;
   margin-left: 0.6rem;
   position: absolute;
-  top: 50%;
+  top: 30%;
   color: antiquewhite;
 }
 
@@ -75,6 +76,7 @@
 .nav-bar ul {
   list-style-type: none;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .nav-bar ul li {
@@ -100,6 +102,8 @@
 .home-wrap {
   margin-left: 1rem;
   margin-top: 1rem;
+  width: 90%;
+  margin: 1px auto;
 }
 
 .positioning {

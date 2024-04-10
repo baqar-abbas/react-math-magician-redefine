@@ -1,6 +1,8 @@
+/* eslint-disable */
 import React, { useState } from 'react';
 import calculate from './logic/calculate';
 import { heading } from './Home';
+import './media-queries/calculator.css'
 
 function Calculator() {
   const [calculatorData, setCalculatorData] = useState({
