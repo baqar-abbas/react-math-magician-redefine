@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { lineheight, heading } from './Home';
+import './media-queries/quotes.css';
 
 export default function Quotes() {
   const apiUrl = 'https://api.api-ninjas.com/v1/quotes';
