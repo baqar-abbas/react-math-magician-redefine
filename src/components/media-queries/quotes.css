@@ -1,0 +1,32 @@
+@media screen and (max-width: 800px) {
+  .quotes {
+    width: 25rem;
+  }
+}
+
+@media screen and (max-width: 678px) {
+  .quotes {
+    width: 20rem;
+    position: absolute;
+    top: 25%;
+    left: 5% !important;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .quotes {
+    width: 15rem;
+    position: absolute;
+    top: 20%;
+    left: 2% !important;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .quotes {
+    width: 10rem;
+    position: absolute;
+    top: 20%;
+    left: 1% !important;
+  }
+}

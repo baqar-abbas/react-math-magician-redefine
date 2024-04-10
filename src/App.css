@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  background-image: url("./assets/math.webp");
+  width: 100vw; /* viewport width */
+  min-height: 100vh; /* viewport height */
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding-bottom: 20px;
+}
+
+.calcDiv {
+  background-color: #ddd;
+  border: 1px solid black;
+  width: 30rem;
+  height: 29rem;
+  position: absolute;
+  left: 40%;
+  top: 15%;
+}
+
+.calcScreen {
+  resize: none;
+  width: 30rem;
+  height: 4rem;
+  line-height: 3rem;
+  text-align: right;
+  background-color: #2e3840;
+  color: blanchedalmond;
+  font-size: x-large;
+  border: none;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 30rem;
+}
+
+.flex-container > button {
+  background-color: #ddd;
+  width: 120px;
+  margin: 0;
+  text-align: center;
+  line-height: 73px;
+  font-size: 22px;
+}
+
+.zero {
+  width: 240px !important;
+}
+
+.operators {
+  background-color: chocolate !important;
+}
+
+.quotes {
+  width: 30rem;
+  margin-left: 0.6rem;
+  position: absolute;
+  top: 30%;
+  color: antiquewhite;
+}
+
+.nav-bar {
+  width: 100%;
+  background-color: #2e3840;
+  min-height: 70px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 1rem;
+}
+
+.nav-bar ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.nav-bar ul li {
+  padding-right: 1rem;
+  padding-left: 1rem;
+  border-right: 2px solid whitesmoke;
+}
+
+.nav-bar ul li:last-child {
+  border-right: none;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.logo {
+  margin-top: 1rem;
+  font-size: x-large;
+}
+
+.home-wrap {
+  width: 90%;
+  margin: 1px auto;
+}
+
+.positioning {
+  position: relative;
+  left: 65%;
+  top: 20%;
+}
+
+.calculator-heading {
+  position: absolute;
+  top: 40%;
+  left: 8%;
+}
